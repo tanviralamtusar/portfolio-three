@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0e0e0e;
+  --foreground: #f4f5f4;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-social: var(--font-social);
+  --font-futura: var(--font-futura);
+  --font-outfit: var(--font-outfit);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0e0e0e;
+    --foreground: #f4f5f4;
+  }
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family:var(--font-outfit), Arial, Helvetica, sans-serif;
+}
+
+
+@layer utilities {
+  .navitems-span {
+    @apply text-[10px] sm:text-xs font-social text-start w-full text-[#a8c256]
+  }
+}
+
+/* lenis provider css  */
+
+/* Add to your global CSS */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Scroll bar customization  */
+
+
+/* ===== Chrome / Edge / Safari ===== */
+/* ===== Chrome, Edge, Safari ===== */
+::-webkit-scrollbar {
+  width: 40px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cfe59c; /* optional dark track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #38bdf8; /* sky blue */
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0ea5e9; /* deeper sky blue on hover */
+}
+
+
+/* ===== Firefox ===== */
+html {
+  scrollbar-width: wider;
+  scrollbar-color: #fa8304 #0b0f14;
+}
+
+::selection {
+  background-color: #000;
+  /* The dark gray from your image */
+  color: #fff;
+  /* Your 'milk' color (adjust hex if needed) */
+}
+
+/* Firefox specific */
+::-moz-selection {
+  background-color: #000;
+  color: #fff;
+}
