@@ -76,7 +76,7 @@ export default function AboutMe() {
             <TextColorReveal text='I&apos;m'/>
           </div>
           <div className='uppercase font-main'>
-            <TextColorReveal text='Sayeed Shorif'/>
+            <TextColorReveal text='Tanvir Alam Tusar'/>
           </div>
         </div>
         <div className=' sm:text-2xl text-xl'>
@@ -93,7 +93,7 @@ export default function AboutMe() {
         <div ref={threeDotRef} className='absolute -top-[15%] -right-[15%] '>
           <Image
             src='/img/threeDot.webp'
-            alt='Sayeed Shorif'
+            alt='Tanvir Alam Tusar'
             width={100}
             height={100}
             className='h-[100px] w-[100px] object-cover'
@@ -104,7 +104,7 @@ export default function AboutMe() {
         <div className="w-[85%]  h-[85%] overflow-hidden">
           <Image
             src='/img/me.png'
-            alt='Sayeed Shorif'
+            alt='Tanvir Alam Tusar'
             width={400}
             height={500}
             className='w-full rounded-xl h-full object-cover'

@@ -147,8 +147,8 @@ const ContactPage = () => {
                     <a target="_blank" href="https://www.linkedin.com/in/sayeed-shorif-68080234b/" rel="noreferrer">
                         <TextBorderAnimation text="LinkedIn" />
                     </a>
-                    <a href="mailto:expsayeedshorif@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%20Sayeed,%0A">
-                        <TextBorderAnimation text="expsayeedshorif@gmail.com" />
+                    <a href="mailto:tanviralamtusar@gmail.com?subject=Contact%20from%20Portfolio&body=Hello%20Tanvir,%0A">
+                        <TextBorderAnimation text="tanviralamtusar@gmail.com" />
                     </a>
 
                 </div>

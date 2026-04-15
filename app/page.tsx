@@ -215,13 +215,13 @@ export default function Home() {
 
 
           <p ref={text3} className="opacity-0 sm:text-5xl text-4xl md:text-7xl font-extrabold">
-            sayeed shorif
+            tanvir alam tusar
           </p>
 
 
 
           <p ref={text2} className="opacity-0 font-outfit text-sm text-start font-semibold lowercase ">
-            A Front End Focused Web developer and Designer
+            A <Fullstack></Fullstack> Web developer and Designer
           </p>
 
 
